@@ -1,0 +1,724 @@
+/*header_start*/
+#top_header {
+    padding: 12px;
+    margin-top: 60px;
+}
+.logo{
+    color: #555;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo:hover{
+    color: #555;
+}
+
+.img-logo img {
+    width: 60px;
+}
+
+.text-logo span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.wrapper_search {
+    overflow: hidden;
+    box-shadow: 0 0 2px #ccc;
+    transition: 0.5s;
+}
+.search{
+    width: 100%;
+    margin-top: 20px;
+}
+.logo_wrapper{
+    text-align: center;
+}
+.submit_btn{
+    margin-right: auto;
+}
+.search_btn input {
+    border: none;
+    outline: none;
+    color: #797979;
+}
+
+.submit_btn button {
+    background: mediumvioletred;
+    border: none;
+    color: #ffffff;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+}
+.wrapper_menu {
+    background: #fafafa;
+    margin-top: 50px;
+}
+.menu_hamburger img{
+    width: 35px;
+}
+.menu_hamburger span{
+    margin-right: 18px;
+    color: white;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 7px 5px 0 5px;
+    color: #a9a9a9;
+    transition: 0.3s;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #1b4348;
+}
+
+nav ul li img {
+    width: 25px;
+    margin: 0 auto;
+}
+nav ul li a span{
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 2px;
+}
+/*header_end*/
+
+/*main_start*/
+
+main{
+    padding-top: 16px;
+}
+
+/*banner_slogan_start*/
+.wrapper_banner_slogan{
+    background-color: #248672;
+    /*background-image: url("https://www.transparenttextures.com/patterns/dust.png");*/
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.img_banner_slogan img{
+    width: 100%;
+}
+.be_ninja{
+ color: #ffe166;
+}
+.text_banner_slogan{
+    display: none;
+}
+.text_banner_slogan h1{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 60px;
+}
+
+/*.text_banner_slogan h1 span{*/
+/*    color: #ffefb2;*/
+/*}*/
+
+/*banner_slogan_end*/
+
+/*aside_start*/
+.all_social_btn{
+    flex-direction: column;
+}
+.all_social_btn a {
+    border: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.all_social_btn a:hover{
+    box-shadow: none !important;
+    opacity: 1;
+}
+.all_social_btn .btn:focus{
+    box-shadow: none !important;
+    opacity: 1;
+}
+.all_social_btn a span{
+    display: inline-block;
+    width: 140px;
+    position: relative;
+    top: -5px;
+}
+.all_social_btn .btn-telegram{
+    background: #0088cc;
+    color: white;
+}
+.all_social_btn .btn-instagram{
+    background: #d6249f;
+    color: white;
+}
+.all_social_btn .btn-whatsapp{
+    background: #1d9e4d;
+    color: white;
+}
+.all_social_btn i{
+    font-size: 30px;
+}
+/*aside_end*/
+
+/*latest_lessons_start*/
+.latest_lessons{
+    margin: 32px 0;
+}
+.sub_section_header h1{
+    font-size: 24px;
+    color: #717171;
+}
+/*latest_lessons_end*/
+.single_lesson{
+    position: relative;
+}
+.logo_course_brand{
+    width: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 75%;
+}
+.logo_course_brand img{
+    width: 50px;
+}
+.perm_free_logo{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+}
+.card-title {
+    font-size: 16px;
+    color: #319683;
+}
+.card-body{
+    padding: 0.5rem;
+}
+.card-text p{
+    font-size: 14px;
+    color: #505050;
+    margin-bottom: 0;
+}
+.card-text p span{
+    margin-right: 12px;
+}
+.single_lesson .card-body a.show_lesson{
+    background: #3dbd7c!important;
+    border: none!important;
+    transition: 0.3s;
+    font-size: 12px;
+}
+.sub_section_header{
+    margin-bottom: 22px;
+}
+.sub_section_header h1 img{
+    width: 30px;
+    margin-left: 12px;
+}
+.show_all{
+    margin-top: 15px;
+}
+.single_lesson .card-body a.show_lesson:hover{
+    background: #319683 !important;
+}
+.single_lesson .card-body a.show_lesson:focus{
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.hot_posts{
+    background-color: #002f3d;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+    padding-top: 16px;
+}
+.card{
+    overflow: hidden !important;
+    border: 1px solid rgba(0,0,0,0.03) !important;
+}
+.hot_posts h1{
+    color: white;
+}
+.hot_posts .card{
+    border: none !important;
+}
+.our_team_wrapper img{
+    width: 300px;
+}
+.square{
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/*main_end*/
+
+/*footer_start*/
+footer{
+    background: #eaeaea;
+    color: white;
+}
+footer h3{
+    font-size: 18px;
+    color: #6f6f6f;
+    border-bottom: 2px solid #adad97;
+}
+footer ul li a , footer ul li span{
+    font-size: 13px;
+    color: #6f6f6f;
+    padding: 0;
+    display: inline-block;
+}
+footer ul li a:hover{
+    color: #75a8ad;
+}
+footer p{
+    color: #5b5b5b;
+    font-size: 12px;
+}
+.iconic-input {
+    border: none;
+    box-shadow: 0 0 10px #cccbc4;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.iconic-input__label {
+    background: #FDD835;
+    color: #333;
+    padding: .5em 1em;
+    line-height: 2;
+}
+.iconic-input__input:focus{
+    outline: none;
+}
+
+.iconic-input__input {
+    font-size: 13px;
+    padding: 0.2em;
+    direction: ltr;
+    border: none;
+    width: 100%;
+    flex-grow: 1;
+    color: #4e555b;
+}
+footer input::placeholder{
+    font-size: 14px;
+    direction: rtl;
+}
+.iconic-input__button {
+    font-size: 14px;
+    cursor: pointer;
+    background: #608c90;
+    color: #ffffff;
+    padding: .5em 1em;
+    border: none;
+    transition: 0.5s;
+}
+.iconic-input__button:hover{
+    background: #67bb90;
+}
+.copyright{
+    text-align: center;
+    background: #333;
+    color: #f1f1f1;
+}
+.copyright p{
+    margin: 0;
+    font-size: 11px;
+}
+.copyright a{
+    color: #f3e8cf;
+}
+/*footer_end*/
+
+
+/*helpers*/
+
+
+/* BORDER TRANSITIONS */
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #1e4f54;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+/*single_book_page_start*/
+.wrapper_single_page{
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+}
+.all-books h2{
+    margin-bottom: 55px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 35px;
+    color: #6e6171;
+}
+.single-book{
+    margin-bottom: 50px;
+}
+.single-book span{
+    font-size: 19px;
+    color: #bd545e;
+    margin-top: 12px;
+    display: block;
+    transition: 0.3s;
+}
+.single-book a:hover span{
+    color: #6e6171;
+}
+.single-book img{
+    width: 100px;
+}
+/*single_book_page_end*/
+
+/*book_headings_start*/
+.title_single_page h2{
+    color: #6e6171;
+    font-size: 22px;
+}
+.meta_single_info{
+    background: #f4f4f4;
+    padding: 12px;
+    border-radius: 8px;
+}
+.meta_single_info img{
+    width: 20px;
+    margin-left: 8px;
+}
+.meta_single_info span{
+    color: #d05757;
+}
+.exc_book p{
+    color: #4d494e;
+}
+.bg-heading-book{
+    background: #545454;
+}
+.exc_book span{
+    color: #6a8355;
+    font-weight: bold;
+}
+.wrapper_headings ol li{
+    list-style: decimal;
+}
+.wrapper_headings ol li a{
+    color: #625f5f;
+}
+.coming_soon p{
+    color: #004764;
+    font-weight: bold;
+}
+/*book_headings_end*/
+
+
+/*aside_section_start*/
+aside .body_sidebar{
+    border: 2px solid #e5e5e54a;
+    box-shadow: 0 15px 11px 0 rgba(232,232,232,1);
+    background-image: url("../images/patt.png");
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/*aside .body_sidebar:before{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    height: 142px;*/
+/*    bottom: -132%;*/
+/*    left: 130px;*/
+/*    width: 449px;*/
+/*    background: #61c9a5;*/
+/*    border-radius: 33%/52%;*/
+/*    transform: scale(2.1) rotate(43deg);*/
+/*}*/
+
+.body_sidebar h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff001c;
+
+}
+.body_sidebar p{
+    font-size: 14px;
+    color: #a29e9e;
+}
+.header_sidebar span{
+    color: white;
+    padding: 6px 7px 6px 110px;
+    display: block;
+    width: 270px;
+    position: relative;
+    background: #55a728!important;
+    clip-path: polygon(46% 0, 100% 0%, 100% 100%, 30% 100%);
+}
+.body_sidebar ul li a{
+    color: #a29e9e;
+    transition: 0.4s;
+}
+.body_sidebar ul li a:hover{
+    color: #7b7777;
+}
+.body_sidebar ul li{
+    padding: 8px 0;
+}
+/*aside_section_end*/
+
+/*comments_start*/
+
+.post-comments .single-comment {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    padding: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.post-comments .single-comment.left-m {
+    margin-right: 30px;
+}
+
+.post-comments .single-comment .comment-img {
+    float: right;
+    width: 13%;
+}
+
+.post-comments .single-comment .comment-img img {
+    border-radius: 50%;
+}
+
+.post-comments .single-comment .comment-content {
+    float: left;
+    width: 85%;
+    padding-left: 25px;
+}
+
+.post-comments .single-comment .comment-content h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.post-comments .single-comment .comment-content p {
+    margin-bottom: 15px;
+}
+
+.post-comments .single-comment .comment-content a {
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    color: #d49934;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.leave-a-reply {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    padding: 25px;
+    background: #ffffff;
+    margin-top: 50px;
+}
+
+.leave-a-reply .btn {
+    margin-top: 0;
+}
+.leave-a-reply h3{
+    color: #818181;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.leave-a-reply .form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #a8ebff;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(160, 206, 255, 0.25);
+}
+.send_comment{
+    cursor: pointer;
+    color: white;
+    background: #f2913f;
+    border: none;
+    border-radius: 6px;
+    transition: 0.4s;
+    padding: 10px;
+}
+/*comments_end*/
+
+/*course_start*/
+.info_course ul li{
+    text-align: right !important;
+    color: #036600;
+    font-size: 15px;
+}
+.info_course ul li img{
+    width: 30px;
+}
+.info_course .U_student{
+    background: #28a76a;
+    border-radius: 4px;
+    padding: 0;
+}
+.U_student span{
+    border-radius: 4px;
+    font-size: 15px;
+}
+.intro_course h2{
+    font-size: 20px;
+}
+.image_book video{
+    width: 100%;
+}
+#list_course_lessons ul li{
+    font-size: 16px;
+    padding: 8px;
+    border-right: 5px solid #3a7492;
+    background: #f9f9f9;
+}
+#list_course_lessons ul li span{
+    color: #75725c;
+}
+.header_sidebar .title_info_course {
+    background: transparent !important;
+    color: #999;
+    font-size: 18px;
+}
+/*course_start*/
+
+/*single_lesson_start*/
+.meta_info_lesson{
+    background: #f9f9f9;
+    padding: 8px;
+}
+.rest_lessons h3{
+    margin-top: 80px;
+    font-size: 18px;
+    color: #929292;
+}
+#list_course_lessons ul li.active_lesson{
+    border-right: 5px solid #c8ca99;
+    background: #efeae1;
+}
+aside #list_course_lessons ul li.active_lesson span{
+    color: #414971;
+}
+.title_single_page img{
+    width: 42px;
+    margin-left: 16px;
+}
+.meta_info_lesson img{
+    width: 25px;
+}
+.meta_info_lesson span{
+    color: #8e8518;
+    font-size: 13px;
+}
+
+.pagination_lesson div a.article_pagination{
+    background: #419fb1;
+}
+.pagination_lesson div a{
+    display: block;
+    padding: 6px;
+    background: #c26784;
+    color: white;
+    min-width: 70px;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.5s;
+}
+.pagination_lesson div a:hover{
+    background: #b05873;
+}
+.pagination_lesson div a.article_pagination:hover{
+    background: #3a788a;
+}
+/*single_lesson_end*/
+
+/*single_article_start*/
+.meta_info_lesson span.name_aut,.meta_info_lesson span.name_cat ,.meta_info_lesson span.view_count{
+    color: #4f2357;
+    font-size: 15px;
+}
+/*single_article_end*/
+
+/*basket_start*/
+.wrapper_basket img{
+    width: 75px;
+}
+.wrapper_basket h3{
+    color: #757575;
+}
+.wrapper_basket table td{
+    line-height: 75px;
+    color: #828282;
+}
+.wrapper_basket table td img.cancel_course{
+    width: 15px;
+    cursor: pointer;
+}
+.go_to_purchase{
+    text-align: left;
+}
+.all_price{
+    color: #909090;
+}
+/*basket_end*/
+
+
+
